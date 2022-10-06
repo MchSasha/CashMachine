@@ -1,10 +1,11 @@
 ﻿#include "cash_machine.h"
-#include <iostream>
 
 int main()
 {
-	Bank b;
-	b.buildBankBase();
+
+	Bank b("BankBase.txt");
+	cash_machine cm;
+	//b.buildBankBase();
 
 
 	cout << "";
